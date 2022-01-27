@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Dongle:wght@300&family=IBM+Plex+Serif:wght@300&family=Indie+Flower&family=Lora:ital@1&family=Mukta:wght@200&family=PT+Sans+Narrow&family=Shadows+Into+Light&family=Teko&display=swap" rel="stylesheet">
+    <title>My profile</title>
+    <!-- fonts awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all/js"></script>
+    <style type="text/css">
+      .A{
+         width: 100%;
+         height: 60px;
+         background-color:#DAD992;
+      }
+      .A1{
+        font-size:25px;
+        font-family: 'Comfortaa', cursive;
+        padding-top:14px;
+        float:left;
+      }
+      .A2{
+         font-size: 20px;
+         float: right;
+         font-family: 'Comfortaa', cursive;
+         padding-top: 18px;
+         opacity: 0.6;
+      }
+      .A2 a{
+        text-decoration: none;
+        color: #66806A;
+      }
+      .A2 a:hover{
+        text-decoration: underline;
+        color:#B4C6A6;
+      }
+      body{
+        margin:0;
+        padding:0;
+      }
+      .A22{
+        padding-left: 15px;
+        padding-right: 10px;
+      }
+      .clear{
+        clear: both;
+      }
+      .B{
+        width:100%;
+        height: 350px;
+      }
+      .B11{
+        width:50%;
+        height:350px;
+        float:right;
+        border-left: 3px #E6DF9A solid;
+        border-bottom: 3px #E6DF9A solid;
+      }
+      .B1{
+        font-size: 38px;
+        padding-left:12px;
+        font-family: 'Dongle', sans-serif;
+        color:#C3B091;
+      }
+      .B12{
+        padding-top: 5px;
+      }
+      .C{
+        width:100%;
+        height:47px;
+      }
+      .C1{
+        color:#6B4F4F;
+        font-size: 23px;
+        height: 40px;
+        background-color: #CEE5D0;
+        padding-top: 10px;
+        padding-left: 12px;
+        font-family: 'Comfortaa', cursive;
+      }
+      .D{
+        width:100%;
+        height:450px;
+        background-color:#6D9886;
+      }
+      .D1{
+        width:450px;
+        height:400px;
+        border:2px #3F3351 solid;
+        border-radius: 4px;
+        position: absolute;
+        top:500px;
+        left:80px;
+      }
+      .D11{
+        height:45px;
+        width: 100%;
+        background-color:#F0A500;
+        border-bottom: 1px #3F3351 solid;
+      }
+      .D1t{
+        font-size: 20px;
+        padding-left: 40%;
+        padding-top: 12px;
+        font-family: 'Teko', sans-serif;
+      }
+      .D1b{
+        font-size: 19px;
+        font-family: 'Mukta', sans-serif;
+      }
+      .D2{
+        width:450px;
+        height:380px;
+        border:2px #3F3351 solid;
+        border-radius: 4px;
+        position: absolute;
+        top:500px;
+        left:850px;
+      }
+      .btn {
+             background: #5b91c7;
+             background-image: -webkit-linear-gradient(top, #5b91c7, #12a1fa);
+             background-image: -moz-linear-gradient(top, #5b91c7, #12a1fa);
+             background-image: -ms-linear-gradient(top, #5b91c7, #12a1fa);
+             background-image: -o-linear-gradient(top, #5b91c7, #12a1fa);
+             background-image: linear-gradient(to bottom, #5b91c7, #12a1fa);
+             -webkit-border-radius: 28;
+             -moz-border-radius: 28;
+             border-radius: 28px;
+             font-family: Arial;
+             color: #deb6de;
+             font-size: 31px;
+             padding: 10px 20px 10px 20px;
+             text-decoration: none;
+           }
+
+         .btn:hover {
+           background: #22292e;
+           background-image: -webkit-linear-gradient(top, #22292e, #0e5280);
+           background-image: -moz-linear-gradient(top, #22292e, #0e5280);
+           background-image: -ms-linear-gradient(top, #22292e, #0e5280);
+           background-image: -o-linear-gradient(top, #22292e, #0e5280);
+           background-image: linear-gradient(to bottom, #22292e, #0e5280);
+           text-decoration: none;
+         }
+         .E{
+           width: 100%;
+           height:150px;
+           background-color: #9A9483;
+           margin: 0 auto;
+         }
+         .E1{
+           width:210px;
+           height:30px;
+           margin-left: 600px;
+           position: absolute;
+           top:1230px;
+
+         }
+         .E2{
+           width:100%;
+           height:30px;
+           padding-top:10px;
+           padding-left:20px;
+           margin-top: 20px;
+         }
+         #l1{
+           margin:15px;
+
+         }
+         #l2{
+           margin: 30px;
+         }
+         #l3{
+           margin: 20px;
+         }
+         .E3{
+           width:100%;
+           height:20px;
+           padding-left: 20px;
+           padding-top: 10px;
+           margin-top: 30px;
+           font-family: 'Indie Flower', cursive;
+           opacity:0.6;
+         }
+         .skills{
+           font-family: 'Indie Flower', cursive;
+           padding-left: 600px;
+           height:370px;
+           background-color: #F6F6F6;
+         }
+         .checked{
+            color: orange;
+          }
+    </style>
+  </head>
+  <body>
+      <div class="A">
+        <div class="A1">
+            Samineni Goutham
+        </div>
+        <div class="A2">
+        <a href="#">HOME</a>
+        <a href="#" class="A22">About Me</a>
+        <a href="https://www.instagram.com/goutham_samineni/?hl=en">Contact me</a>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="B">
+        <div class="B1">
+           <img class="B11" src="my_dp.jpg">
+           HOME
+           <div class="B12">
+             <ul>
+               <li> Hi my self goutham samineni</li>
+               <li> i completed my 12<sup>th</sup>standed in parayana junior collage</li>
+               <li> i am student of SATHYABAMA</li>
+             </ul>
+           </div>
+           </div>
+        </div>
+        <div class="clear"></div>
+        <div class="C">
+          <div class="C1">
+            Qualites
+          </div>
+          </div>
+        <div class="clear"></div>
+        <div class="D">
+          <div class="D1">
+             <div class="D11">
+               <div class="D1t">
+                 Qualites-1
+               </div>
+               <div class="D1b">
+                 <p>
+                  <ul>
+                    <li>Ambitious and positive expresses who I am. A personal quality i have is the ability to improve myself whether it’s my tactics, attitude, point of view, behavior, skills, understanding. I struggle communicating the way I feel.</li>
+                    <li>I wanted to be unique and I alrweady am. I started watching youtube videos on self-love and charisma. I did a lot of researdch on how to get your friedns to miss you which was not what I needed to be focused on.</li>
+                  </ul>
+                 </p>
+               </div>
+             </div>
+          </div>
+          <div class="D2">
+             <div class="D11">
+               <div class="D1t">
+                 Qualites-2
+               </div>
+               <div class="D1b">
+                 <p>
+                  <ul>
+                    <li>I have so much love for everything I just want to help others it makes me feel good. SO back to the fact that I have a hard time describing my thoughts with words, I’m a visual learner.The results from my learning</li>
+                    <li>I consider this quality is of great importance in reaching success in my life and in dealing with other people. Only at once, one can make an impression that there is nothing useful in it.</li>
+                  </ul>
+                 </p>
+               </div>
+             </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="skills">
+      <h2 class="hello"><u>MY SKILL RATINGS</u>🙂</h2>
+
+              HTML=<span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span><br><br>
+              CSS=<span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span><br><br>
+              BOOTSTRAP=<span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span><br><br>
+              C LANGUAGE=<span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span><br><br>
+              PYTHON=<span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+          </div>
+        <div class="E">
+         <div class="E1">
+           <div class="btn">
+                contact me
+           </div>
+           <div class="E2">
+             <a id="l1" href="https://www.facebook.com/gowtham.s.9699"><i class="fab fa-facebook"></i></a>
+             <a id="l2" href="https://www.instagram.com/goutham_samineni/?hl=en"><i class="fab fa-instagram"></i></a>
+             <a id="l3" href="https://github.com/gouthamsamineni"><i class="fab fa-github"></i></a>
+           </div>
+           <div class="E3">
+             &copy; 2022 gowthamsamineni
+           </div>
+         </div>
+       </div>
+  </body>
+</html>
